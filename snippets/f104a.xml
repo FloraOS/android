@@ -5,4 +5,5 @@
   <project path="vendor/lineage" name="FloraOS/android_vendor_lineage" revision="mentha"/>
   <project path="packages/apps/SetupWizard" name="FloraOS/android_packages_apps_SetupWizard" revision="mentha" />
   <project path="packages/apps/GameSpace" name="FloraOS/android_packages_apps_GameSpace" revision="mentha" />
+  <project path="bootable/recovery" name="FloraOS/android_bootable_recovery" revision="mentha" groups="pdk" />
 </manifest>
