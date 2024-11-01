@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>    
+  <project path="packages/apps/Backgrounds" name="FloraOS/android_packages_apps_Backgrounds" />
+  <project path="packages/apps/LineageParts" name="FloraOS/android_packages_apps_LineageParts" />
+  <project path="vendor/lineage" name="FloraOS/android_vendor_lineage" />
+  <project path="packages/apps/SetupWizard" name="FloraOS/android_packages_apps_SetupWizard" />
+</manifest>
