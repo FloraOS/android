@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>    
+<manifest>   
   <project path="packages/apps/Backgrounds" name="FloraOS/android_packages_apps_Backgrounds" revision="mentha" />
   <project path="packages/apps/LineageParts" name="FloraOS/android_packages_apps_LineageParts" revision="mentha"/>
   <project path="vendor/lineage" name="FloraOS/android_vendor_lineage" revision="mentha"/>
   <project path="packages/apps/SetupWizard" name="FloraOS/android_packages_apps_SetupWizard" revision="mentha" />
+  <!--[META:no-update]-->
   <project path="packages/apps/GameSpace" name="FloraOS/android_packages_apps_GameSpace" revision="mentha" />
   <project path="bootable/recovery" name="FloraOS/android_bootable_recovery" revision="mentha" groups="pdk" />
+  <!--[META:update-from=https://github.com/0xf104a/Valor]-->
+  <project path="external/Valor" name="FloraOS/android_external_Valor" revision="mentha" />
+  <!--[META:no-update]-->
+  <project path="vendor/f104a" name="FloraOS/android_vendor_f104a" revision="mentha" />
 </manifest>
