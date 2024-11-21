@@ -17,5 +17,5 @@
   <project path="external/hardened_malloc" name="FloraOS/android_external_hardened_malloc" revision="mentha"/>
   <!--[META:no-update]-->
   <project path="external/ssdeep" name="FloraOS/android_external_ssdeep" revision="mentha"/>
-  <project path="packages/apps/Updater" name="FloraOS/android_packages_apps_Updater" revision="mentha"/>
+  <project path="lineage-sdk" name="FloraOS/android_lineage-sdk" revision="mentha"/>
 </manifest>

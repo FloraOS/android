@@ -23,7 +23,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="FloraOS/android_build" groups="pdk,sysui-studio" >
+  <project path="build/make" name="FloraOS/android_build" groups="pdk,sysui-studio" revision="mentha" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -40,7 +40,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
   <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" />
-  <project path="build/soong" name="FloraOS/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="FloraOS/android_build_soong" groups="pdk,tradefed" revision="mentha" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
