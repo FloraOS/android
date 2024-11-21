@@ -11,4 +11,11 @@
   <project path="external/Valor" name="FloraOS/android_external_Valor" revision="mentha" />
   <!--[META:no-update]-->
   <project path="vendor/f104a" name="FloraOS/android_vendor_f104a" revision="mentha" />
+  <project path="packages/apps/Updater" name="FloraOS/android_packages_apps_Updater" revision="mentha"/>
+  <project path="packages/apps/SettingsInitializer" name="FloraOS/android_packages_apps_SettingsInitializer" revision="mentha" />
+  <!--[META:update-from=https://github.com/GrapheneOS/hardened_malloc-->
+  <project path="external/hardened_malloc" name="FloraOS/android_external_hardened_malloc" revision="mentha"/>
+  <!--[META:no-update]-->
+  <project path="external/ssdeep" name="FloraOS/android_external_ssdeep" revision="mentha"/>
+  <project path="packages/apps/Updater" name="FloraOS/android_packages_apps_Updater" revision="mentha"/>
 </manifest>
