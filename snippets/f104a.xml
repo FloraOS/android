@@ -18,4 +18,6 @@
   <!--[META:no-update]-->
   <project path="external/ssdeep" name="FloraOS/android_external_ssdeep" revision="mentha"/>
   <project path="lineage-sdk" name="FloraOS/android_lineage-sdk" revision="mentha"/>
+  <project path="packages/apps/Trebuchet" name="FloraOS/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio" revision="mentha"/>
+  <project path="frameworks/libs/systemui" name="FloraOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="mentha" />
 </manifest>
