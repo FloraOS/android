@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>    
-  <project path="packages/apps/Backgrounds" name="FloraOS/android_packages_apps_Backgrounds" />
-  <project path="packages/apps/LineageParts" name="FloraOS/android_packages_apps_LineageParts" />
-  <project path="vendor/lineage" name="FloraOS/android_vendor_lineage" />
-  <project path="packages/apps/SetupWizard" name="FloraOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/Backgrounds" name="FloraOS/android_packages_apps_Backgrounds" revision="zingiber" />
+  <project path="packages/apps/LineageParts" name="FloraOS/android_packages_apps_LineageParts" revision="zingiber"/>
+  <project path="vendor/lineage" name="FloraOS/android_vendor_lineage" revision="zingiber"/>
+  <project path="packages/apps/SetupWizard" name="FloraOS/android_packages_apps_SetupWizard" revision="zingiber"/>
+  <project path="external/Valor" name="FloraOS/android_external_Valor" revision="zingiber" />
+  <project path="vendor/f104a" name="FloraOS/android_vendor_f104a" revision="zingiber" />
+  <project path="external/ssdeep" name="FloraOS/android_external_ssdeep" revision="zingiber"/>
 </manifest>
