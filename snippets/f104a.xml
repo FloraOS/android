@@ -7,4 +7,12 @@
   <project path="external/Valor" name="FloraOS/android_external_Valor" revision="zingiber" />
   <project path="vendor/f104a" name="FloraOS/android_vendor_f104a" revision="zingiber" />
   <project path="external/ssdeep" name="FloraOS/android_external_ssdeep" revision="zingiber"/>
+  <!--[META:update-from=https://github.com/GrapheneOS/hardened_malloc-->
+  <project path="external/hardened_malloc" name="FloraOS/android_external_hardened_malloc" revision="zingiber"/>
+  <project path="bootable/recovery" name="FloraOS/android_bootable_recovery" revision="zingiber" groups="pdk" />
+  <project path="lineage-sdk" name="FloraOS/android_lineage-sdk" revision="zingiber"/>
+  <project path="packages/apps/Trebuchet" name="FloraOS/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio" revision="zingiber"/>
+  <project path="frameworks/libs/systemui" name="FloraOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="zingiber" />
+  <project path="packages/apps/Updater" name="FloraOS/android_packages_apps_Updater" revision="zingiber"/>
+  <project path="packages/apps/SettingsInitializer" name="FloraOS/android_packages_apps_SettingsInitializer" revision="zingiber" />
 </manifest>
