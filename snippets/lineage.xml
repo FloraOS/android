@@ -31,6 +31,7 @@
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" />
+  <project path="packages/apps/Catapult" name="LineageOS/android_packages_apps_Catapult" />
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" />
@@ -57,7 +58,7 @@
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral" remote="aosp" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="qcom,pdk-qcom" remote="aosp" revision="refs/tags/android-15.0.0_r5" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk-qcom" remote="aosp" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,qcom_display,pdk-qcom" />
@@ -151,7 +152,6 @@
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="lineage-22.1-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-22.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-22.1-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-22.1-caf-sm8350" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-22.1-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-22.1-caf-sm8450" />
   <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-22.1-caf-sm8450" />
