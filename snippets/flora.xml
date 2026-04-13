@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-	<project name="FloraOS/aqua" path="aqua" revision="sativum"/>
+  <project name='FloraOS/aqua' path='aqua' revision='sativum'/>
+  <project name='FloraOS/android_external_hardened_malloc' path='external/hardened_malloc' remote='github' branch='sativum'/>
 </manifest>
-
