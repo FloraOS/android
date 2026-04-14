@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remove-project name='LineageOS/android_bionic' />	
+  <remove-project name='LineageOS/android_build' />
+    <project path="build/make" name="FloraOS/android_build" revision="sativum" groups="pdk,sysui-studio" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
   <project name='FloraOS/aqua' path='aqua' revision='sativum'/>
   <project name='FloraOS/android_external_hardened_malloc' path='external/hardened_malloc' remote='github' revision='sativum'/>
   <project name='FloraOS/android_bionic' path='bionic' remote='github' revision='sativum'/>
