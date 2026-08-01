@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="fairphone" fetch="https://gerrit-public.fairphone.software" revision="int/15/fp4" />
+
+    <project path="device/fp-common" name="device/common" remote="fairphone" />
+    <!--<project path="device/fairphone/common" name="device/fairphone/common"  remote="fairphone"/> -->
+    <project path="device/fairphone/FP4" name="device/fairphone/fp4" remote="fairphone" revision="int/15/fp4" />
+    <project name="platform/vendor/st" path="vendor/fairphone/st" remote="fairphone" />
+    <project name="vendor/fairphone/tools" path="vendor/fairphone/tools" remote="fairphone" revision="main" />
+    <project path="kernel/msm-4.19/arch/arm64/boot/dts/vendor" remote="fairphone" name="kernel/msm-extra/devicetree" groups="fairphone" />
+    <include name="snippets/device_FP4_codelinaro.xml" />
+</manifest>
+

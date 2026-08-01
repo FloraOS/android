@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Bootloader project -->
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" groups="clo" remote="fairphone"/>
+  <!-- Device projects -->
+  <project name="device/qcom/sepolicy" groups="clo-s" remote="fairphone"/>
+  <project name="device/qcom/sepolicy_vndr" groups="clo"  remote="fairphone" />
+  <!-- External projects -->
+  <project name="platform/external/ant-wireless/hidl" remote="fairphone" path="external/ant-wireless/hidl" groups="clo-s" />
+  <project name="platform/external/json-c" path="external/json-c" groups="clo-s"  remote="fairphone" />
+  <!-- Hardware projects -->
+  <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" groups="clo"  remote="fairphone" />
+  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" groups="clo"  remote="fairphone" />
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" groups="clo"  remote="fairphone" />
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" groups="clo"  remote="fairphone" />
+  <project name="platform/hardware/qcom/media" path="hardware/qcom/media" groups="clo"  remote="fairphone" />
+  <project name="platform/hardware/qcom/thermal" path="hardware/qcom/thermal" groups="clo"  remote="fairphone" />
+  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom/wlan" groups="clo" remote="github" revision="lineage-23.2"/>
+  <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="hardware/qcom/st-hal" groups="clo"  remote="fairphone" />
+  <!-- Kernel and other driver projects -->
+  <project name="kernel/msm-4.19" groups="clo" remote="fairphone" />
+  <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/opensource/camera-kernel" path="kernel/msm-4.19/techpack/camera" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/opensource/display-drivers" path="kernel/msm-4.19/techpack/display" groups="clo" remote="fairphone"  />
+  <project name="platform/vendor/opensource/video-driver" path="kernel/msm-4.19/techpack/video" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/data-kernel" path="vendor/qcom/opensource/data-kernel" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" groups="clo"  remote="fairphone" />
+  <!-- System project -->
+  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" groups="clo"  remote="fairphone" />
+  <!-- Codeaurora projects -->
+  <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" groups="clo-s"  remote="fairphone" />
+  <!-- QCOM-opensource projects -->
+  <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/thermal-engine" groups="clo" remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig" groups="clo"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" groups="clo"  remote="fairphone" />
+  <!-- QCOM-commonsys projects -->
+  <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/commonsys/audio" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/dataservices-commonsys" path="vendor/qcom/opensource/commonsys/dataservices" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" groups="clo-s"  remote="fairphone" />
+  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd" groups="clo-s"  remote="fairphone" />
+</manifest>

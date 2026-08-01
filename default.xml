@@ -4,6 +4,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote name="github" fetch="https://github.com/" />
   <default revision="refs/tags/android-16.0.0_r4"
            remote="aosp"
            sync-j="4" />
@@ -12,7 +13,7 @@
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
-  <project path="build/make" name="platform/build" groups="pdk,sysui-studio" >
+  <project path="build/make" name="FloraOS/android_build" groups="pdk,sysui-studio" remote="github" revision="2.R-helix">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -23,7 +24,7 @@
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" />
   <project path="build/release" name="platform/build/release" groups="pdk,tradefed,sysui-studio" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed,sysui-studio" >
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed,sysui-studio" remote="github" revision="2.R-helix">  
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -652,7 +653,6 @@
   <project path="hardware/nxp/nfc" name="platform/hardware/nxp/nfc" groups="pdk" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" />
   <project path="hardware/nxp/weaver" name="platform/hardware/nxp/weaver" groups="pdk" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" />
@@ -1040,6 +1040,6 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
+  <include name="snippets/f104a.xml" />
   <!-- END open-source projects -->
-
 </manifest>
